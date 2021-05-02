@@ -110,7 +110,7 @@ function PostContent(props){
     const content = props.mp4Video ?
     (
         <div class="conteudo">
-            <video controls autoplay muted>
+            <video controls autoPlay muted>
                 <source src={props.mp4Video} type="video/mp4"/>
                 <source src={props.ogvVideo} type="video/ogv"/>
             </video>
